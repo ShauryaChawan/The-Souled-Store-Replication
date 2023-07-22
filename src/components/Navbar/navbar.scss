@@ -1,0 +1,112 @@
+.navbar_container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  // width: 100%;
+  // width: 100vh;
+
+  .logo {
+    position: absolute;
+    left: 10px;
+    img {
+      width: 100px;
+    }
+  }
+  .top {
+		height: 40px;
+		// border: 1px solid blue;
+    color: white;
+    width: 100%;
+    background-color: rgb(247, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .left {
+      margin-left: 12rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .item {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        border-left: 2px solid rgb(24, 24, 24);
+
+        &:hover {
+          background-color: rgb(247, 156, 156);
+          font-weight: bold;
+        }
+        &:active {
+          background-color: white;
+          color: black;
+        }
+
+        &:nth-of-type(3) {
+          border-right: 2px solid rgb(24, 24, 24);
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .item {
+        margin: 0 1rem;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+		height: 40px;
+		// border: 1px solid blue;
+
+    .left {
+      margin-left: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .item {
+        font-size: 11px;
+        margin: 0 10px;
+      }
+    }
+
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+			margin-right: 3rem;
+
+      .item {
+        margin: 0 5px;
+				color: rgb(48, 48, 48);
+        .icon {
+          font-size: 25px;
+        }
+
+				&:hover{
+					border-bottom: 5px solid rgb(247, 38, 38);
+				}
+      }
+    }
+  }
+}
