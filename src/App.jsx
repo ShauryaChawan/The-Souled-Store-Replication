@@ -2,7 +2,6 @@ import React from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 // Components
-import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import DesktopNavbar from "./components/Navbar/DesktopNavbar";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
@@ -24,7 +23,6 @@ const Layout = () => {
   return (
     <div>
       {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
-      {/* <Navbar /> */}
       <Outlet />
       <Footer />
     </div>
@@ -37,6 +35,9 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "/", element: <Home /> },
+      { path: "/men", element: <Home /> },
+      { path: "/women", element: <Home /> },
+      { path: "/kids", element: <Home /> },
       { path: "/products", element: <Products /> },
       { path: "/products/single-product/:id", element: <SingleProduct /> },
       { path: "/*", element: <PageNotFound /> },
