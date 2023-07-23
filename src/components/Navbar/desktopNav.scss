@@ -13,6 +13,7 @@ $margin-left-bottom-nav: 13rem;
 
   .logo {
     position: absolute;
+    z-index: 10;
     // border: 1px solid blue;
     top: 20px;
     left: 40px;
@@ -21,7 +22,7 @@ $margin-left-bottom-nav: 13rem;
     }
   }
   .top {
-    height: 45px;
+    padding: 0;
     // border: 1px solid white;
     color: white;
     width: 100%;
@@ -40,7 +41,6 @@ $margin-left-bottom-nav: 13rem;
 
       .item {
         font-size: 1rem;
-        height: 100%;
         padding: 0.5rem 2rem;
         border-left: 2px solid rgb(24, 24, 24);
         font-weight: bold;
@@ -48,6 +48,10 @@ $margin-left-bottom-nav: 13rem;
         &:hover {
           background-color: rgb(247, 156, 156);
         }
+      }
+      .active{
+        background-color: white !important;
+        color: black !important;
       }
     }
 
@@ -81,6 +85,7 @@ $margin-left-bottom-nav: 13rem;
     // gap: 10rem;
     color: rgb(88, 88, 88);
     // border: 1px solid blue;
+    position: relative;
 
     .left {
       // border: 1px solid blue;
@@ -96,6 +101,54 @@ $margin-left-bottom-nav: 13rem;
         font-size: 0.85rem;
         font-weight: bold;
         margin: 0 10px;
+        // position: relative;
+
+        .dropdown {
+          position: absolute;
+          top: 100%;
+          display: none;
+          flex-direction: column;
+          gap:1rem;
+          padding: 1rem;
+          background-color: white;
+          -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        
+          @keyframes blink {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
+          .badge{
+            color: red;
+            animation: blink 0.5s infinite alternate;
+          }
+          
+          .bold{
+            color: red;
+            font-weight: bold;
+          }
+        }
+
+        .fullWidth{
+          padding: 1rem;
+          width: 100vh;
+          display: none;
+          grid-template-columns: auto auto auto auto;
+          column-gap: 1rem;
+          row-gap: 1rem;
+        }
+
+        
+
+        &:hover {
+          .dropdown {
+            display: flex;
+          }
+          .fullWidth{
+            display: grid;
+          }
+        }
       }
     }
 
@@ -124,7 +177,7 @@ $margin-left-bottom-nav: 13rem;
       .input {
         position: relative;
 
-        input{
+        input {
           right: 30px;
           position: absolute;
           z-index: 1;
@@ -141,7 +194,7 @@ $margin-left-bottom-nav: 13rem;
           // display: none;
         }
         &:hover {
-          input{
+          input {
             background-color: rgb(63, 63, 63);
             border-bottom: 5px solid rgb(247, 38, 38);
             // display: block;

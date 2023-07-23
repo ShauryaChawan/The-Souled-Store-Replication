@@ -10,32 +10,28 @@ export const NavbarData = [
           {
             option_title: "T-shirts",
             link: "/t-shirts",
-            new: false,
           },
           {
             option_title: "Oversized T-shirts",
             link: "/ovrsized-t-shirts",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Shirts",
             link: "/shirts",
-            new: false,
           },
           {
             option_title: "Polos",
             link: "/polos",
-            new: false,
           },
           {
             option_title: "Windcheaters",
             link: "/windcheaters",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Tank Top & Vests",
             link: "/tank-top-and-vests",
-            new: false,
           },
         ],
       },
@@ -46,27 +42,24 @@ export const NavbarData = [
           {
             option_title: "Jeans",
             link: "/jeans",
-            new: false,
           },
           {
             option_title: "Cotton Pants",
             link: "/cottom-pants",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Cargo",
             link: "/cargo",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Joggers",
             link: "/joggers",
-            new: false,
           },
           {
             option_title: "Shorts",
             link: "/shorts",
-            new: false,
           },
         ],
       },
@@ -77,32 +70,28 @@ export const NavbarData = [
           {
             option_title: "Shoes",
             link: "/shoes",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Windcheaters & Umbrellas",
             link: "/windcheaters-and-umbrellas",
-            new: false,
           },
           {
             option_title: "Prefumes",
             link: "/perfumes",
-            new: true,
+            badge: "New",
           },
           {
             option_title: "Socks",
             link: "/socks",
-            new: false,
           },
           {
             option_title: "Caps",
             link: "/caps",
-            new: false,
           },
           {
             option_title: "Backpacks",
             link: "/backpacks",
-            new: false,
           },
         ],
       },
@@ -173,7 +162,7 @@ export const NavbarData = [
             superscript: "TM",
           },
 
-					// Set 2
+          // Set 2
           {
             option_title: "X-Men",
             superscript: "TM",
@@ -213,7 +202,7 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 4
+          // Set 4
           {
             option_title: "X-Men",
           },
@@ -231,14 +220,14 @@ export const NavbarData = [
             option_title: "Iron Man",
             badge: "Sale",
           },
-					// Set 5
+          // Set 5
           {
             option_title: "TSS Originals",
             badge: "New",
           },
           {
             option_title: "SOLIDS",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "SUPERHEROES",
@@ -251,10 +240,10 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 6
+          // Set 6
           {
             option_title: "X-Men",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "Marvel",
@@ -277,7 +266,7 @@ export const NavbarData = [
       },
     ],
   },
-	{
+  {
     category: "women",
     link: "/women",
     navbar: [
@@ -409,7 +398,7 @@ export const NavbarData = [
             superscript: "TM",
           },
 
-					// Set 2
+          // Set 2
           {
             option_title: "X-Men",
             superscript: "TM",
@@ -449,7 +438,7 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 4
+          // Set 4
           {
             option_title: "X-Men",
           },
@@ -467,14 +456,14 @@ export const NavbarData = [
             option_title: "Iron Man",
             badge: "Sale",
           },
-					// Set 5
+          // Set 5
           {
             option_title: "TSS Originals",
             badge: "New",
           },
           {
             option_title: "SOLIDS",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "SUPERHEROES",
@@ -487,10 +476,10 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 6
+          // Set 6
           {
             option_title: "X-Men",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "Marvel",
@@ -513,7 +502,7 @@ export const NavbarData = [
       },
     ],
   },
-	{
+  {
     category: "kids",
     link: "/kids",
     navbar: [
@@ -613,7 +602,7 @@ export const NavbarData = [
             superscript: "TM",
           },
 
-					// Set 2
+          // Set 2
           {
             option_title: "X-Men",
             superscript: "TM",
@@ -653,7 +642,7 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 4
+          // Set 4
           {
             option_title: "X-Men",
           },
@@ -671,14 +660,14 @@ export const NavbarData = [
             option_title: "Iron Man",
             badge: "Sale",
           },
-					// Set 5
+          // Set 5
           {
             option_title: "TSS Originals",
             badge: "New",
           },
           {
             option_title: "SOLIDS",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "SUPERHEROES",
@@ -691,10 +680,10 @@ export const NavbarData = [
             option_title: "Captain America",
             badge: "New",
           },
-					// Set 6
+          // Set 6
           {
             option_title: "X-Men",
-						bold: true,
+            bold: true,
           },
           {
             option_title: "Marvel",
