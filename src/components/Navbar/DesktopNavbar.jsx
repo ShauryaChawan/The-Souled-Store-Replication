@@ -26,7 +26,7 @@ const DesktopNavbar = () => {
   // console.log(categoryData);
 
   return (
-    <div className="navbar_container">
+    <div className="desktop_navbar_container">
       {/* Logo */}
       <NavLink to="/men">
         <div className="logo">
@@ -64,7 +64,7 @@ const DesktopNavbar = () => {
         <div className="left">
           {categoryData &&
             categoryData.navbar.map((item, index) => {
-              console.log(item.title); // Console.log the item title
+              {/* console.log(item.title); // Console.log the item title */}
               return (
                 <div
                   key={index}

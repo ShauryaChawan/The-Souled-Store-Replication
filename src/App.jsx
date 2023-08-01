@@ -19,7 +19,7 @@ import Register from "./pages/Register/Register";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 const Layout = () => {
-  const isMobile = useMediaQuery("(max-width: 768px)"); // Adjust the breakpoint as needed
+  const isMobile = useMediaQuery("(max-width: 1000px)"); // Adjust the breakpoint as needed
   return (
     <div>
       {isMobile ? <MobileNavbar /> : <DesktopNavbar />}

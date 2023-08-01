@@ -1,10 +1,11 @@
 $margin-left-top-nav: 20rem;
 $margin-left-bottom-nav: 13rem;
 
-.navbar_container {
+.desktop_navbar_container {
   margin: 0;
   padding: 0;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,7 @@ $margin-left-bottom-nav: 13rem;
   }
   .top {
     padding: 0;
-    // border: 1px solid white;
+    // border: 1px solid black;
     color: white;
     width: 100%;
     background-color: rgb(247, 38, 38);
@@ -131,8 +132,10 @@ $margin-left-bottom-nav: 13rem;
         }
 
         .fullWidth{
-          padding: 1rem;
-          width: 100vh;
+          padding: 1rem 5rem;
+          width: 100vw;
+          left: 0;
+          right: 0;
           display: none;
           grid-template-columns: auto auto auto auto;
           column-gap: 1rem;
